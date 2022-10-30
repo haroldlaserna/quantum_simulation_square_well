@@ -189,7 +189,7 @@ $$-\frac{1}{2}\frac{\psi(y_{n})}{h^2} + \left( \frac{1}{h^2} + \frac{mL^2}{\hbar
 
 <p style='text-align: justify;'>De esto, podemos observar que lo anterior es un poblema de autovalores y autovectore, siendo el autovector el vector con las componentes $\psi(y_i)$ y los autovalores $\frac{mL^2E}{\hbar^2}.$</p>
 
-<p style='text-align: justify;'>Esta matriz es una <strong>matriz tridiagonal</strong> que puede ser definida de forma simple de la siguiente forma:</p>
+<p style='text-align: justify;'>Esta matriz es una <strong>matriz tridiagonal</strong> que puede ser definida de forma simple de la siguiente manera:</p>
 
 $$A_{i,i} = \frac{1}{h^2} + \frac{mL^2}{\hbar^2}V(y_{i})$$
 
