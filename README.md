@@ -155,30 +155,7 @@ $$-\frac{1}{2}\frac{\psi(y_{n})}{h^2} + \left( \frac{1}{h^2} + \frac{mL^2}{\hbar
 
 teniendo en cuenta que $\psi(y_{n})$ y $\psi(y_{0})$ son 0 y teniendo encuenta los demás $y_{i}$ es posible construir la siguiente ecuación lineal matricialmente:
 
-$$
-\boldsymbol{A}\begin{bmatrix}
-\psi(y_{1}) \\
-\psi(y_{2}) \\
-\vdots \\
-\psi(y_{n-2}) \\
-\psi(y_{n-1})
-\end{bmatrix}
-=\frac{mL^2E}{\hbar^2}\begin{bmatrix}
-\psi(y_{1}) \\
-\psi(y_{2}) \\
-\vdots \\
-\psi(y_{n-2}) \\
-\psi(y_{n-1})
-\end{bmatrix}
-$$
-siendo $\boldsymbol{A}$ una matriz de $n-1$x$n-1$ definida de la siguiente forma:
-
-$$\boldsymbol{A} = \begin{bmatrix}
-\frac{1}{h^2} + \frac{mL^2}{\hbar^2}V(y_{1}) & - \frac{1}{2h^2} & 0 & \ldots & 0 & 0 \\
-- \frac{1}{2h^2} & \frac{1}{h^2} + \frac{mL^2}{\hbar^2}V(y_{2}) & - \frac{1}{2h^2} & \ldots & 0 & 0\\
-\vdots & \vdots & \vdots & \ddots &\vdots & \vdots \\
-0 & 0 & 0 & \ldots & - \frac{1}{2h^2} & \frac{1}{2h^2} + \frac{mL^2}{\hbar^2}V(y_{n-1})
-\end{bmatrix}$$
+![matrix](matrix.jpg "MarineGEO logo")
 
 De esto podemos observar que lo anterior es un poblema de autovalores y autovectores siendo el autovector, el vector con las componentes $\psi(y_i)$ y los autovalores $\frac{mL^2E}{\hbar^2}$
 
