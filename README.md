@@ -162,5 +162,7 @@ De esto podemos observar que lo anterior es un poblema de autovalores y autovect
 Esta matriz es una matriz tridiagonal que puede ser definida de forma simple de la siguiente forma 
 
 $$A_{i,i} = \frac{1}{h^2} + \frac{mL^2}{\hbar^2}V(y_{i})$$
+
 $$A_{i,i+1} = A_{i,i-1} = -\frac{1}{h^2}$$
+
 $$A_{i,j} = 0, \ para \ j \neq i+1 \ y \ \ j \neq i-1 $$
