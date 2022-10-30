@@ -35,6 +35,7 @@ $$
 <p style='text-align: justify;'>con $l$ y $\kappa$ como:</p>
 
 $$l= \frac{\sqrt{2m(E+V_{0})}}{\hbar},$$
+
 $$\kappa = \frac{\sqrt{-2mE}}{\hbar}.$$
 
 <p style='text-align: justify;'>Tenemos que para una transmisión perfecta $T = 1$, obtenemos que la energía $E_{n}$ es:</p>
