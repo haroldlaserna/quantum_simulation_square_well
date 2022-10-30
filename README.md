@@ -171,15 +171,15 @@ $$\psi(y_{n}) = \psi(y_{0}) = 0.$$
 
 <p style='text-align: justify;'>Construyendo las ecuaciones para $y_{1}$, $y_{2}$ y $y_{n-1}$ tenemos lo siguiente: </p>
 
-$x_{1}:$
+$y_{1}:$
 
 $$-\frac{1}{2}\frac{\psi(y_{0})}{h^2} + \left( \frac{1}{h^2} + \frac{mL^2}{\hbar^2}V(y_{1})\right)\psi(y_{1}) -\frac{1}{2}\frac{\psi(y_{2})}{h^2}=\frac{mL^2E}{\hbar^2}\psi(y_{1}).$$
 
-$x_{2}:$
+$y_{2}:$
 
 $$-\frac{1}{2}\frac{\psi(y_{1})}{h^2} + \left( \frac{1}{h^2} + \frac{mL^2}{\hbar^2}V(y_{2})\right)\psi(y_{2}) -\frac{1}{2}\frac{\psi(y_{3})}{h^2}=\frac{mL^2E}{\hbar^2}\psi(y_{2}).$$
 
-$x_{n-1}:$
+$y_{n-1}:$
 
 $$-\frac{1}{2}\frac{\psi(y_{n})}{h^2} + \left( \frac{1}{h^2} + \frac{mL^2}{\hbar^2}V(y_{n-1})\right)\psi(y_{n-1}) -\frac{1}{2}\frac{\psi(y_{n-2})}{h^2}=\frac{mL^2E}{\hbar^2}\psi(y_{n-1}).$$
 
