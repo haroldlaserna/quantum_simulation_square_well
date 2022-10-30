@@ -155,7 +155,7 @@ $$-\frac{1}{2}\frac{\psi(y_{n})}{h^2} + \left( \frac{1}{h^2} + \frac{mL^2}{\hbar
 
 teniendo en cuenta que $\psi(y_{n})$ y $\psi(y_{0})$ son 0 y teniendo encuenta los demás $y_{i}$ es posible construir la siguiente ecuación lineal matricialmente:
 
-![matrix](matrix.jpg "MarineGEO logo")
+![matrix](matrix.png "MarineGEO logo")
 
 De esto podemos observar que lo anterior es un poblema de autovalores y autovectores siendo el autovector, el vector con las componentes $\psi(y_i)$ y los autovalores $\frac{mL^2E}{\hbar^2}$
 
