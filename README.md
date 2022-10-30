@@ -110,11 +110,11 @@ $$f(y-h)\approx f(y)- \frac{df(y)}{dy}h + \frac{d^2f(y)}{dy^2}\frac{h^2}{2} - \f
 
 <p style='text-align: justify;'>sumando $f(y+h)$ y $f(y-h)$ tenemos que:</p>
 
-$$f(y+h)+f(y+h) \approx 2f(y)+\frac{d^2f(y)}{dx^2}h^2,$$
+$$f(y+h)+f(y+h) \approx 2f(y)+\frac{d^2f(y)}{dy^2}h^2,$$
 
 <p style='text-align: justify;'>despejando la segunda derivada tenemos que:</p>
 
-$$\frac{d^2f(x)}{dx^2} \approx \frac{f(x+h)+f(x-h)-2f(x)}{h^2}.$$
+$$\frac{d^2f(y)}{dy^2} \approx \frac{f(y+h)+f(y-h)-2f(y)}{h^2}.$$
 
 <p style='text-align: justify;'>Como observamos de la anterior ecuación, mediante la aproximación por expansión de Taylor, es posible convertir la segunda derivada en términos de sumas y restas de la función $f$, teniendo en cuenta un incremento $h$ escogido. Con lo anterior, aún no es posible pasar a simular nuestro sistema, debido a que en la ecuación anterior, $y$ sigue siendo continua. Para esto necesitamos discretizar $y$ de la siguente forma:</p>
 
